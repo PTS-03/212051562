@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style</title>
+   
+    <style>
+        h2{
+            color:pink;
+            background-color: black;
+        }
+        h3{
+            color:red;
+            background-color:white;
+        }
+        h4{
+            color:white;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- cách 1 : inline style -->
+     <!-- color màu chữ -->
+      <!-- background-color:quy định màu nền -->
+    <h1 style="color:blue; background-color:aqua">Bài style</h1>
+
+    <!-- cách 2:internal style -->
+     <h2> internal style</h2>
+     <h3>internal style</h3>
+     <!-- cách 3 external style -->
+      <h4> Cách 3: external style</h4>
+</body>
+</html>

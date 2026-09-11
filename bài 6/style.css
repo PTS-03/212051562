@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+
+.danh-muc {
+    background-color: #2fa4e7;
+}
+
+.danh-sach-danh-muc {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 10px;
+    /* set các đối tượng bọc ở trong khối tự động cách
+            nhau khoảng cách = giá trị truyền vào */
+    gap: 15px;
+}
+
+.lien-ket-muc {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+.khoi-trai {
+    width: 20%;
+    height: 90vh;
+    /* để vẽ viền dùng border
+                border sẽ có 3 tham số (độ dày - loại đường viền - màu sắc)
+            */
+    border-right: 1px solid #2fa4e7;
+}
+
+p {
+    margin: 0px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #dedede;
+}
+
+.khoi-dang-nhap {
+    width: 90%;
+    height: 300px;
+    /* nếu margin để auto sẽ căn đối tượng ra giữa*/
+    margin: 10px auto;
+}
+
+.quen-mk {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lien-ket-quen-mk {
+    text-decoration: none;
+    color: #2fa4e7;
+}
+
+.thong-tin {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    color: white;
+}
+
+.dang-nhap {
+    background-color: #2fa4e7;
+}
+
+.dang-nhap-365 {
+    background-color: #0078D4;
+}
+
+.khoi-phai {
+    width: 80%;
+    height: 90vh;
+}
+
+.tin {
+    width: 95%;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+}
+
+.tin-tren {
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.danh-sach-tin {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.bai-viet {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.bai-viet-khoi-anh {
+    width: 100%;
+}
+
+.bai-viet-thoi-gian {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.tin1 {
+    width: 95%;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+}
+
+.tin-tren1 {
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.danh-sach-tin1 {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.bai-viet1 {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.bai-viet-khoi-anh1 {
+    width: 100%;
+}
+
+.bai-viet-thoi-gian1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.tin2 {
+    width: 95%;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+}
+
+.tin-tren2 {
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.danh-sach-tin2 {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.bai-viet2 {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.bai-viet-khoi-anh2 {
+    width: 100%;
+}
+
+.bai-viet-thoi-gian2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.xem-tiep {
+    color: #2fa4e7;
+    text-decoration: none;
+}
+.the-p{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+
+

@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Họ và tên:
+        <input type="text" id="hovaten">
+    </div>
+
+    <div>
+        <button onclick="xinchao()">Xin chào</button>
+    </div>
+
+    <div>
+        Kết quả:
+        <input type="text" id="ketqua">
+    </div>
+
+    <h1>Tính tổng</h1>
+
+    <div>
+        Số thứ 1:
+        <input type="number" id="sothunhat">
+    </div>
+
+    <div>
+        Số thứ 2:
+        <input type="number" id="sothuhai">
+    </div>
+
+    <div>
+        <button onclick="tinhtong()">Tính tổng</button>
+    </div>
+
+    <div>
+        Kết quả:
+        <input type="text" id="tong">
+    </div>
+
+    <script>
+        function xinchao() {
+            var ten = document.getElementById("hovaten").value;
+            document.getElementById("ketqua").value = "Xin chào " + ten;
+        }
+
+        function tinhtong() {
+            var sothunhat = parseFloat(
+                document.getElementById("sothunhat").value
+            );
+
+            var sothuhai = parseFloat(
+                document.getElementById("sothuhai").value
+            );
+
+            document.getElementById("tong").value =
+                sothunhat + sothuhai;
+        }
+    </script>
+</body>
+</html>
